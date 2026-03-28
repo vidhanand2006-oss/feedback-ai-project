@@ -1,0 +1,6 @@
+source,feedback,analysis
+email,App is slow,Category: Performance | Sentiment: Negative
+review,Love the UI,Category: UI Issue | Sentiment: Positive
+survey,Need dark mode,Category: Feature Request | Sentiment: Neutral
+twitter,App crashes sometimes,Category: Performance | Sentiment: Negative
+email,Feature request: export data,Category: Feature Request | Sentiment: Neutral

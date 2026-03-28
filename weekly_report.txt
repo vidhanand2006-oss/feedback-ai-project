@@ -1,0 +1,18 @@
+
+📅 Weekly Product Feedback Report
+----------------------------------
+
+🔝 Top Issues:
+- Performance: 2 feedbacks
+- Feature Request: 2 feedbacks
+- UI Issue: 1 feedbacks
+
+💬 Sentiment Summary:
+- Negative: 2
+- Positive: 1
+- Neutral: 2
+
+💡 Suggestions:
+- Improve app performance (speed & crashes)
+- Work on UI improvements
+- Consider adding requested features
