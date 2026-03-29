@@ -3,14 +3,14 @@
 ----------------------------------
 
 🔝 Top Issues:
+- Other: 3 feedbacks
 - Performance: 2 feedbacks
 - Feature Request: 2 feedbacks
-- UI Issue: 1 feedbacks
 
 💬 Sentiment Summary:
 - Negative: 2
 - Positive: 1
-- Neutral: 2
+- Neutral: 5
 
 💡 Suggestions:
 - Improve app performance (speed & crashes)

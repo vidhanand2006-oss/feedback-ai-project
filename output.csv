@@ -4,3 +4,6 @@ review,Love the UI,Category: UI Issue | Sentiment: Positive
 survey,Need dark mode,Category: Feature Request | Sentiment: Neutral
 twitter,App crashes sometimes,Category: Performance | Sentiment: Negative
 email,Feature request: export data,Category: Feature Request | Sentiment: Neutral
+review,Login process is confusing,Category: Other | Sentiment: Neutral
+survey,Push notifications are too frequent,Category: Other | Sentiment: Neutral
+twitter,Great new update,Category: Other | Sentiment: Neutral

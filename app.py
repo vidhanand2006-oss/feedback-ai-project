@@ -255,3 +255,28 @@ Suggestions:
 
 else:
     st.info("Please upload a CSV file to see analysis.")
+    import streamlit as st
+    uploaded_file = st.file_uploader("Upload feedback CSV", type="csv")
+if uploaded_file is not None:
+    df = pd.read_csv(uploaded_file)
+    import streamlit as st
+import pandas as pd
+import matplotlib.pyplot as plt
+data = pd.read_csv("realistic_feedback.csv", encoding="utf-8")
+category_counts = data['Category'].value_counts()
+st.subheader("📊 Category Distribution")
+fig, ax = plt.subplots()
+ax.pie(category_counts, labels=category_counts.index, autopct="%1.1f%%")
+st.pyplot(fig)
+
+# Download CSV
+st.download_button(
+    "📥 Download Full Data",
+    data.to_csv(index=False),
+    file_name="final_output.csv",
+    mime="text/csv"
+)
+import pandas as pd
+
+# Agar CSV me comma ke andar text hai to safe read
+data = pd.read_csv("data.csv", encoding="utf-8", quotechar='"')
