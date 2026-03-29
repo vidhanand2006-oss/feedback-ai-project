@@ -150,3 +150,5 @@ with open("weekly_report.txt", "w", encoding="utf-8") as f:
 print("\n✅ Final files created:")
 print("📁 final_output.csv")
 print("📄 weekly_report.txt")
+APP_NAME = "InsightFlow AI"
+print(f"🚀 {APP_NAME} Started")
