@@ -3,3 +3,44 @@ email,App is slow,
 review,Love the UI,
 survey,Need dark mode,
 twitter,App crashes sometimes,source
+import pandas as pd
+import random
+
+# Feedback sources
+sources = ["email", "review", "survey", "twitter", "support chat"]
+
+# Feedback templates
+feedback_templates = [
+    "App crashes frequently when I open it.",
+    "Love the new UI design, looks clean!",
+    "Need a dark mode option for night usage.",
+    "Exporting data takes too long, improve speed.",
+    "Notifications are not working properly.",
+    "Feature request: add multi-language support.",
+    "App is slow on older devices.",
+    "The dashboard is confusing, needs redesign.",
+    "Love how smooth the login process is!",
+    "Cannot sync my data between devices.",
+    "App freezes when uploading images.",
+    "Would like a weekly summary report feature.",
+    "Performance is excellent, keep it up!",
+    "UI colors are harsh, please improve contrast.",
+    "Occasional login errors, please fix.",
+    "Add offline mode for better accessibility.",
+    "Push notifications are very helpful, thanks!",
+    "Feature request: schedule posts inside the app.",
+    "App UI is intuitive, very user friendly.",
+    "Sometimes the app lags when opening settings."
+]
+
+# Generate 100 random feedbacks
+data = {
+    "source": [random.choice(sources) for _ in range(100)],
+    "feedback": [random.choice(feedback_templates) for _ in range(100)]
+}
+
+df = pd.DataFrame(data)
+
+# Save to CSV
+df.to_csv("realistic_feedback.csv", index=False)
+print("✅ realistic_feedback.csv created with 100 entries")
